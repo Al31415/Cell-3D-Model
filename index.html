@@ -9,6 +9,19 @@
 <body>
     <div id="label"></div>
     <button id="zoom-out-btn" style="display: none;">Zoom Out to Nucleosomes</button>
+    
+    <!-- Modal for detailed component diagrams -->
+    <div id="component-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Component Details</h2>
+            <div id="modal-body">
+                <div id="component-diagram"></div>
+                <div id="component-description"></div>
+            </div>
+        </div>
+    </div>
+    
     <script type="module" src="script.js"></script>
 </body>
 </html> 
